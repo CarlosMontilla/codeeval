@@ -1,0 +1,27 @@
+#!/usr/bin/ruby
+
+def selfDescribing? n
+  n_str = n.to_s
+  n_digits = n_str.length
+  dict = {}
+  (0...n_digits).each do |i|
+    num = n_str[i].to_i
+    if dict.has_key?(i) then
+      dict[i][0] = num
+    else
+      dict[i] = [num, 0]
+    end
+
+    if dict.has_key?(num) then
+      dict[num][1] += 1
+    else
+      dict[num] = [0, 1]
+    end
+  end
+  dict.each {|k,v| if v[0] != v[1] then return false end}
+  return true
+end
+
+File.open(ARGV[0],"r").read.split("\n").each do |i|
+  if selfDescribing? (i.to_i) then puts 1 else puts 0 end
+end
