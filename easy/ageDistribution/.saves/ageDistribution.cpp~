@@ -1,0 +1,48 @@
+/*Age distribution problem codeeval
+  https://www.codeeval.com/open_challenges/152/
+  Programmed by Carlos Montilla
+*/
+
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+string ageStatus(int);
+
+int main(int argc, char* argv[]){
+}
+
+
+string ageStatus(int age){
+    if (age < 0 || age > 100){
+        return "This program is for humans";
+    }
+    else if (age <= 2){
+        return "Still in Mama's arms";
+    }
+    else if (age <= 4){
+        return "Preschool Maniac";
+    }
+    else if (age <= 11){
+        return "Elementary school";
+    }
+    else if (age <= 14){
+        return "Middle school";
+    }
+    else if (age <= 18){
+        return "High school";
+    }
+    else if (age <= 22){
+        return "College";
+    }
+    else if (age <= 65){
+        return "Working for the man";
+    }
+    else{
+        return "The Golden Years";
+    }
+}
