@@ -1,0 +1,11 @@
+#!usr/bin/env ruby
+
+# Solves the minimum distance problem of codeeval
+# https://www.codeeval.com/open_challenges/189/
+# programmed by: Carlos Montilla
+
+
+File.open(ARGV[0], "r").read.split("\n").each do |line|
+  list = line.split(" ").map {|i| i.to_i}
+  puts list
+end
