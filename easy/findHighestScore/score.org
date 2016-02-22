@@ -3,4 +3,4 @@ url:https://www.codeeval.com/open_challenges/208/
 | Language | Score | Time [ms] |  Memory | Points |
 |----------+-------+-----------+---------+--------|
 | Ruby     |   100 |        89 | 3598703 | 31.841 |
-|          |       |           |         |        |
+| C++      |   100 |         3 |  216616 | 34.814 |
