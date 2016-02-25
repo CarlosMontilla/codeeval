@@ -1,4 +1,5 @@
-url:https://www.codeeval.com/open_challenges/208/
+Find Highest Score
+https://www.codeeval.com/open_challenges/208/
 * scores
 | Language | Score | Time [ms] |  Memory | Points |
 |----------+-------+-----------+---------+--------|
