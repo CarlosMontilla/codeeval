@@ -1,0 +1,7 @@
+Without Repetitions
+https://www.codeeval.com/open_challenges/173/
+* Scores
+| Language | Score | Time |  Memory | Points |
+|----------+-------+------+---------+--------|
+| Ruby     |   100 |  152 | 3567616 | 31.756 |
+| C++      |   100 |    3 |   39132 | 34.962 |
