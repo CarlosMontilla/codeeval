@@ -21,7 +21,7 @@ def getData(pathdir):
 
     return data
 def main():
-    testDir = "./easy/findHighestScore/"
+    testDir = "../easy/findHighestScore/"
     print getData(testDir)
 
 if __name__ == "__main__":
