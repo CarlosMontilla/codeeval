@@ -1,0 +1,7 @@
+Penultimate Word
+https://www.codeeval.com/open_challenges/92/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| Ruby     |   100 |        94 |        4104192 | 31.410 |
+| C++      |   100 |         2 |           9701 | 34.988 |
