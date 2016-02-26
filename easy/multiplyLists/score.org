@@ -1,0 +1,7 @@
+Multiply List
+https://www.codeeval.com/open_challenges/113/
+* scores
+| Languages | Score | Time [ms] | Memory [bytes] | Points |
+|-----------+-------+-----------+----------------+--------|
+| Ruby      |   100 |       106 |        4100096 | 31.392 |
+| C++       |   100 |         2 |          24266 | 34.976 |
