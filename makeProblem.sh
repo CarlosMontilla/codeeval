@@ -10,10 +10,14 @@ echo "2: Medium"
 echo "3: Hard"
 read problemLevel
 
-if [ $problemLevel -lt 1 ] || [ $problemLevel -gt 3 ]; then
-    echo "Error! Invalid problem level"
-    exit 1
-fi
+case $problemLevel in
+    1) level=easy ;;
+    2) level=medium ;;
+    3) level=hard ;;
+    *) echo "Error! Non valid level code"; exit 1 ;;
+esac
+
+echo $level
 
 echo "Enter the name of the problem: "
 read problemName
@@ -32,4 +36,3 @@ if [ "$problemCode" = "" ]; then
 else
     problemUrl="https://www.codeeval.com/open_challenges/"$problemCode
 fi
-echo $problemUrl
