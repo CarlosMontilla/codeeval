@@ -25,6 +25,9 @@ if [ "$problemName" == "" ]; then
    exit 1
 fi
 
+folderName=`echo $problemName | tr '[:upper:]' '[:lower:]' | tr ' ' '-'`
+
+
 echo "Enter the code of the problem [Optional]: "
 read problemCode
 
@@ -34,3 +37,13 @@ if [ "$problemCode" = "" ]; then
 else
     problemUrl="https://www.codeeval.com/open_challenges/"$problemCode
 fi
+
+
+echo -n "Moving to $level directory..."
+cd ./$level
+echo -e "Done!"
+
+problemFolder=
+echo -n "Making $folderName directory..."
+mkdir $folderName
+echo -e "Done!"
