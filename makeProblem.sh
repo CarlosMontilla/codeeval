@@ -5,7 +5,7 @@
 # Programmed by: Carlos Montilla
 
 echo "Enter the level of the problem:"
-echo "1: easy"
+echo "1: Easy"
 echo "2: Medium"
 echo "3: Hard"
 read problemLevel
@@ -16,8 +16,6 @@ case $problemLevel in
     3) level=hard ;;
     *) echo "Error! Non valid level code"; exit 1 ;;
 esac
-
-echo $level
 
 echo "Enter the name of the problem: "
 read problemName
