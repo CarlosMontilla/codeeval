@@ -1,0 +1,7 @@
+Armstrong Numbers
+url:https://www.codeeval.com/open_challenges/82/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| Ruby     |   100 |       127 |        2772992 | 32.464 |
+| C++      |   100 |         1 |           8789 | 34.991 |
