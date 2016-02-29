@@ -9,7 +9,7 @@ outputfile=./out
 resultfile=$1.results
 
 case $1 in
-    "cpp") g++ -o cpp.out main.cpp && implementation=compiler;;
+    "cpp") g++ -std=c++11 -o cpp.out main.cpp && implementation=compiler;;
     "c") gcc -o c.out main.c && implementation=compiler ;;
     "f90") gfortran -o f90.out main.f90 && implementation=compiler ;;
     "py") implementation=interpreter ;;
