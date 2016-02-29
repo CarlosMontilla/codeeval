@@ -1,7 +1,7 @@
-Armstrong Numbers
-url:https://www.codeeval.com/open_challenges/82/
+Age Distribution
+url:https://www.codeeval.com/open_challenges/152/
 * Scores
 | Language | Score | Time [ms] | Memory [Bytes] | Points |
 |----------+-------+-----------+----------------+--------|
-| Ruby     |   100 |       127 |        2772992 | 32.464 |
-| C++      |   100 |         1 |           8789 | 34.991 |
+| Ruby     |   100 |        85 |        3833856 | 31.652 |
+| C++      |   100 |         3 |           9547 | 34.986 |
