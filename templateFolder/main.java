@@ -5,8 +5,7 @@ public class Main {
         BufferedReader buffer = new BufferedReader(new FileReader(file));
         String line;
         while ((line = buffer.readLine()) != null) {
-            line = line.trim();
-            // Process line of input Here
+            System.out.println("Hello, World");
         }
     }
 }
