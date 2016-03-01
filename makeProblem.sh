@@ -41,9 +41,13 @@ fi
 
 echo -n "Moving to $level directory..."
 cd ./$level
-echo -e "Done!"
+echo "Done!"
 
-problemFolder=
 echo -n "Making $folderName directory..."
 mkdir $folderName
-echo -e "Done!"
+cd $folderName
+echo "Done!"
+
+echo -n "Copying files to folder..."
+cp ../../templateFolder/* ./
+echo "Done!"
