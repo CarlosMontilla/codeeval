@@ -6,7 +6,7 @@
 filename=main
 inputfile=./in
 outputfile=./out
-
+resultfile=$1.results
 
 case $1 in
     "cpp") g++ -o cpp.out main.cpp && implementation=compiler;;
@@ -20,13 +20,20 @@ case $1 in
 esac
 
 if [ $implementation == compiler ]; then
-    ./$1.out $inputfile > $1.results
+    ./$1.out $inputfile > $resultfile
 else
-    ./$filename.$1 $inputfile > $1.results
+    ./$filename.$1 $inputfile > $resultfile
 fi
 
 nTest=`wc -l < $outputfile`
-diff=`diff -U 0 -w  $outputfile $1.results | grep -v ^@ | wc -l`
+nResults=`wc -l <$resultfile`
+
+if [ $nTest -ne $nResults ]; then
+    echo "ERROR!: Number of results does not match"
+    exit 1
+fi
+
+diff=`diff -U 0 -w  $outputfile $resultfile | grep -v ^@ | wc -l`
 
 if [ $diff -eq 0 ]; then
     echo "All tests passed"
