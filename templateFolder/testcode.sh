@@ -22,14 +22,14 @@ esac
 if [ $implementation == compiler ]; then
     ./$1.out $inputfile > $1.results
 else
-    ./$filename.$1 > $1.results
+    ./$filename.$1 $inputfile > $1.results
 fi
 
 nTest=`wc -l < $outputfile`
-diff=`diff -U 0 $outputfile $1.results | grep -v ^@ | wc -l`
-if [ diff -eq 0 ]; then
+diff=`diff -U 0 -w  $outputfile $1.results | grep -v ^@ | wc -l`
+
+if [ $diff -eq 0 ]; then
     echo "All tests passed"
 else
-    failed=
-    echo -n "$diff / $nTest tests failed"
+    echo "Tests failed!"
 fi
