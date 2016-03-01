@@ -51,3 +51,11 @@ echo "Done!"
 echo -n "Copying files to folder..."
 cp ../../templateFolder/* ./
 echo "Done!"
+
+scoreFile=score.org
+touch $scoreFile
+echo $problemName > $scoreFile
+echo url:$problemUrl >> $scoreFile
+echo "* Scores" >> $scoreFile
+echo "|Language|Score|Time [ms]|Memory [Bytes]|Points|" >> $scoreFile
+echo "|--------+-----+---------+--------------+------|" >> $scoreFile
