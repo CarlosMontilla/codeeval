@@ -31,4 +31,3 @@ end
 
 file = File.open(ARGV[0], "r")
 file.read.split("\n").each {|s| puts getPoints( count(s.downcase) )}
-

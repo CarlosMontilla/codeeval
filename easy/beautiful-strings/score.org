@@ -1,0 +1,7 @@
+Beautiful Strings
+url:https://www.codeeval.com/open_challenges/83/
+* Scores
+| Languages | Score | Time [ms] | Memory [Bytes] | Points |
+|-----------+-------+-----------+----------------+--------|
+| Ruby      |   100 |       137 |        2519040 | 32.657 |
+| C++       |   100 |         5 |          16647 | 34.977 |
