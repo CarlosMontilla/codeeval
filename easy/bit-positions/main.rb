@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # Prints if two bits in the binary representation of a given number are equals
 
 def bitsEqual?(n, b1, b2)
@@ -11,4 +12,3 @@ lines.each do |str|
     numbers = str.split(",").map {|i| i.to_i}
     puts bitsEqual?(numbers[0], numbers[1], numbers[2])
 end
-
