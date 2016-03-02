@@ -1,0 +1,7 @@
+Bit Positions
+url:https://www.codeeval.com/open_challenges/19
+* Scores
+| Languages | Score | Time [ms] | Memory [Bytes] | Points |
+|-----------+-------+-----------+----------------+--------|
+| Ruby      |   100 |       109 |        4100096 | 31.387 |
+| C++       |   100 |         1 |          12913 | 34.987 |
