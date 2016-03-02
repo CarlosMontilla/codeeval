@@ -1,0 +1,7 @@
+Big Digits
+url:https://www.codeeval.com/open_challenges/163/
+* Scores
+| Languages | Score | Time [ms] | Memory [Bytes] | Points |
+|-----------+-------+-----------+----------------+--------|
+| Ruby      |   100 |       126 |        2256896 | 32.895 |
+| C++       |   100 |         2 |         122670 | 34.894 |
