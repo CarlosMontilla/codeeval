@@ -1,0 +1,7 @@
+Calculate Distance
+url:https://www.codeeval.com/open_challenges/99
+* Scores
+| Languages | Score | Time [ms] | Memory [Bytes] |  Points |
+|-----------+-------+-----------+----------------+---------|
+| Ruby      |   100 |       139 |        3571712 |  31.375 |
+| C++       |   100 |         1 |          11006 | 34.9879 |
