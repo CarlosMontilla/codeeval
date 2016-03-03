@@ -1,0 +1,7 @@
+Capitalize Words
+url:https://www.codeeval.com/open_challenges/93
+* Scores
+| Languages | Score | Time [ms] | Memory [Bytes] | Points |
+|-----------+-------+-----------+----------------+--------|
+| Ruby      |   100 |       122 |        3571712 | 31.805 |
+| C++       |   100 |         1 |           8863 | 34.991 |
