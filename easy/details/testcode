@@ -33,7 +33,7 @@ if [ $nTest -ne $nResults ]; then
     exit 1
 fi
 
-diff=`diff -U 0 -w  $outputfile $resultfile | grep -v ^@ | wc -l`
+diff=`diff -U 0 -b -Z  $outputfile $resultfile | grep -v ^@ | wc -l`
 
 if [ $diff -eq 0 ]; then
     echo "All tests passed"
