@@ -1,0 +1,7 @@
+Compare Points
+url:https://www.codeeval.com/open_challenges/192/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         1 |          15466 | 34.985 |
+| Ruby     |   100 |        75 |        3511927 | 31.938 |
