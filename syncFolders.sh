@@ -77,7 +77,6 @@ function syncProblem {
     fi
 
     if [ ! -f $1/$OUT_FILE ]; then
-        echo "Copying in file"
         cp $TEMPLATE_FOLDER/$OUT_FILE $1
     fi
 
