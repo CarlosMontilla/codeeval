@@ -114,12 +114,11 @@ readonly SCORE_FILE=score.org
 readTemplate $TEMPLATE_FOLDER
 
 
-syncProblem "./easy/rollerCoaster"
-# levels=(easy medium hard)
-# for folder in ${levels[*]}
-# do
-#     syncFolder $folder
-# done
+levels=(easy medium hard)
+for folder in ${levels[*]}
+do
+    syncFolder $folder
+done
 
 
 #
