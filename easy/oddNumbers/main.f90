@@ -1,3 +1,7 @@
 PROGRAM MAIN
-  WRITE (*,*) "Hello World"
-END PROGRAM MAIN
+  CHARACTER(2) :: STR
+  DO I=1,100,2
+     WRITE( STR, '(I2)' ) I
+     WRITE(*,'(A)') ADJUSTL(STR)
+  END DO
+ENDPROGRAM MAIN
