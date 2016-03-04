@@ -1,0 +1,7 @@
+Clean up the Words
+url:https://www.codeeval/open_challenges/205/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         7 |           9111 | 34.980 |
+| Ruby     |   100 |       107 |        3936038 | 31.527 |
