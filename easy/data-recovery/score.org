@@ -1,0 +1,7 @@
+Data Recovery
+url:https://www.codeeval.com/open_challenges/140/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         1 |          54375 | 34.953 |
+| Ruby     |   100 |        72 |        3567616 | 31.897 |
