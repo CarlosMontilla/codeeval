@@ -1,0 +1,7 @@
+Compressed Sequence
+url:https://www.codeeval.com/open_challenges/128/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         2 |         100241 | 34.913 |
+| Ruby     |   100 |       103 |        3571712 | 31.838 |
