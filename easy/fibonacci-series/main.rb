@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 filename = ARGV[0]
 
 def fibonacciNth (n, acc = [1,1])
@@ -19,4 +21,3 @@ data.split("\n").each do |str|
   fib = fibonacciNth(str.to_i, fib)
   puts fib[str.to_i]
 end
-

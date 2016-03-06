@@ -1,0 +1,7 @@
+Fibonacci Series
+url:https://www.codeeval.com/open_challenges/22/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         2 |           8787 | 34.989 |
+| Ruby     |   100 |        74 |        3567616 | 31.892 |
