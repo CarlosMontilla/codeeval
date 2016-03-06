@@ -1,0 +1,7 @@
+Reverse Words
+url:https://www.codeeval.com/open_challenges/8/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         6 |          14754 | 34.977 |
+| Ruby     |   100 |        97 |        3567616 | 31.853 |
