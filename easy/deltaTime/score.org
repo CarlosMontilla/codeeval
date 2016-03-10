@@ -1,5 +1,0 @@
-[Name]
-url:[url]
-* Scores
-| Language | Score | Time [ms] | Memory [Bytes] | Points |
-|----------+-------+-----------+----------------+--------|

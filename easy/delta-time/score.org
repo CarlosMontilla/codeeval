@@ -1,0 +1,7 @@
+Delta Time
+url:https://www.codeeval.com/open_challenges/166/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         2 |          38003 | 34.965 |
+| Ruby     |   100 |       117 |        4096000 | 31.377 |
