@@ -1,0 +1,7 @@
+Even Numbers
+url:https://www.codeeval.com/open_challenges/100/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         1 |           8789 | 34.991 |
+| Ruby     |   100 |        97 |        3145728 | 32.205 |
