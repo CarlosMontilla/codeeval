@@ -1,5 +1,7 @@
-[Name]
-url:[url]
+Details
+url:https://www.codeeval.com/open_challenges/183/
 * Scores
 | Language | Score | Time [ms] | Memory [Bytes] | Points |
 |----------+-------+-----------+----------------+--------|
+| C++      |   100 |         1 |          17172 | 34.984 |
+| Ruby     |   100 |        92 |        3576919 | 31.854 |
