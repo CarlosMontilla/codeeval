@@ -1,0 +1,7 @@
+Find A Writer
+url:https://www.codeeval.com/open_challenges/97/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         1 |          18505 | 34.983 |
+| Ruby     |   100 |        87 |        3829760 | 31.651 |
