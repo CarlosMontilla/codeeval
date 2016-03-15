@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # Calculates if a given number is happy
 
 def isHappy? n

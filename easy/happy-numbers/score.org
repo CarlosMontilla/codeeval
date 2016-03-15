@@ -1,0 +1,7 @@
+Happy Numbers
+url:https://www.codeeval.com/open_challenges/39/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         3 |          18492 | 34.979 |
+| Ruby     |   100 |        99 |        3829760 | 31.630 |
