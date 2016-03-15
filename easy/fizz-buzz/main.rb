@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # Emules the game fizz buzz
 
 def fizzbuzz(n1, n2, to)

@@ -1,0 +1,7 @@
+Fizz Buzz
+url:https://www.codeeval.com/open_challenges/1/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         4 |          49637 | 34.952 |
+| Ruby     |   100 |       125 |        3571712 | 31.801 |
