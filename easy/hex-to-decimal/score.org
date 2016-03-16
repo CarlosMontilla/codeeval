@@ -1,0 +1,7 @@
+Hex to Decimal
+url:https://www.codeeval.com/open_challenges/67/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         4 |          19559 | 34.977 |
+| Ruby     |   100 |       122 |        3563520 | 31.812 |
