@@ -1,0 +1,7 @@
+Hidden Digits
+url:https://www.codeeval.com/open_challenges/122/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         2 |          18914 | 34.981 |
+| Ruby     |   100 |        89 |        3145728 | 32.218 |
