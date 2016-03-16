@@ -1,0 +1,7 @@
+Junggling with Zeros
+url:https://www.codeeval.com/open_challenges/149/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         1 |          42647 | 34.963 |
+| Ruby     |   100 |       117 |        3571712 | 31.814 |
