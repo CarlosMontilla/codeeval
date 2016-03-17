@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # Finds the ratio between lowercase and uppercase letters
 
 def lettercaseRatio str

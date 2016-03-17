@@ -1,0 +1,7 @@
+Lettercase Percentage Ratio
+url:https://www.codeeval.com/open_challenges/147/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         1 |           8834 | 34.991 |
+| Ruby     |   100 |        70 |        3829760 | 31.682 |
