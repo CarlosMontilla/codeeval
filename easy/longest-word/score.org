@@ -1,0 +1,7 @@
+Longest Word
+url:https://www.codeeval.com/open_challenges/111/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         2 |          17130 | 34.982 |
+| Ruby     |   100 |       126 |        2519040 | 32.677 |
