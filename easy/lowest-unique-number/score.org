@@ -1,0 +1,7 @@
+Lowest Unique Number
+url:https://www.codeeval.com/open_challenges/103/
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| C++      |   100 |         3 |          23264 | 34.975 |
+| Ruby     |   100 |        73 |        4104192 | 31.447 |
