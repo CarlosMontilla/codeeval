@@ -1,5 +1,7 @@
 Multiplication Tables
+
 url:https://www.codeeval.com/open_challenges/23/
+
 * Scores
 | Language | Score | Time [ms] | Memory [Bytes] | Points |
 |----------+-------+-----------+----------------+--------|
