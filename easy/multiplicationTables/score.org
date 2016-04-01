@@ -1,5 +1,8 @@
-[Name]
-url:[url]
+Multiplication Tables
+url:https://www.codeeval.com/open_challenges/23/
 * Scores
 | Language | Score | Time [ms] | Memory [Bytes] | Points |
 |----------+-------+-----------+----------------+--------|
+|Python 2  |    100|         28|             256|  34.951|
+|C++       |    100|          3|            4096|  34.991|
+|Ruby      |    100|        104|         3829760|  31.621|
