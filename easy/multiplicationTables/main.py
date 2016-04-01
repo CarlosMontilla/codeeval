@@ -1,7 +1,6 @@
 #!/usr/bin/env python
-
-import sys
-test_cases = open(sys.argv[1], 'r')
-for test in test_cases:
-    print "Hello World!"
-test_cases.close()
+for i in range(1,13):
+    print i,
+    for j in range(2,13):
+        print '%3.0d' % (i * j),
+    print
