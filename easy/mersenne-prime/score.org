@@ -1,0 +1,6 @@
+mersenne prime
+url:https://www.codeeval.com/open_challenges/240
+* Scores
+| Language | Score | Time [ms] | Memory [Bytes] | Points |
+|----------+-------+-----------+----------------+--------|
+| Ruby     |   100 |       140 |         991232 | 33.928 |
