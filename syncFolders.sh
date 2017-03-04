@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # syncFolders.sh ---
 #
 # Filename: syncFolders.sh

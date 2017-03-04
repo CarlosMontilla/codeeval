@@ -16,6 +16,7 @@ case $1 in
     "py3") implementation=interpreter ;;
     "rb") implementation=interpreter ;;
     "sh") implementation=interpreter ;;
+    "lua") implementation=interpreter ;;
     *) echo "Unknown extension!"; exit 1;;
 esac
 
